@@ -2,6 +2,11 @@
 
 Apache Cordova é um framework de desenvolvimento mobile que permite criar aplicativos híbridos utilizando tecnologias web como HTML, CSS e JavaScript. Ele fornece acesso a APIs nativas através de plugins, permitindo interações com funcionalidades do dispositivo como câmera, GPS e armazenamento.
 
+## 👥 Equipe
+- Vinicius Pires ([vinicinnnn](https://github.com/vinicinnnn))
+- Juan Pablo ([JJuanPabl0](https://github.com/JJuanPabl0))
+- Luis Henrique ([DarkBytess](https://github.com/DarkBytess))
+
 ## 📌 Pré-requisitos
 Antes de começar, instale os seguintes softwares:
 - [Node.js](https://nodejs.org/)
