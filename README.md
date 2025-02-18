@@ -80,25 +80,54 @@ function somar() {
     document.getElementById('resultado').innerText = 'Resultado: ' + resultado;
 }
 ```
+## 📱 Ambiente de Compilação  
+
+O **Apache Cordova** permite que você desenvolva aplicativos móveis usando **HTML, CSS e JavaScript**, mas para transformar esse código em um **APK (aplicativo Android instalável)**, é necessário um ambiente de compilação adequado.  
+
+### 📌 Motivo pelo qual você precisa do Android Studio e SDK Tools  
+
+### 🛠️ 1. Compilação do Código  
+O Cordova precisa do **Android SDK** para compilar o código **JavaScript e HTML** em um aplicativo Android. O SDK contém ferramentas como o **Gradle**, que é responsável pela construção do **APK**.  
+
+### 📲 2. Emulador e Dispositivos  
+O **Android Studio** inclui o **AVD (Android Virtual Device)**, permitindo testar seu aplicativo em um **emulador** antes de instalá-lo em um dispositivo real.  
+
+### 🔑 3. Assinatura do App  
+O Android exige que todos os apps sejam **assinados** antes de serem instalados. O **SDK Tools** contém utilitários como o **Keytool** e **Jarsigner** para esse processo.  
+
+### 📦 4. Gerenciamento de Dependências  
+O **Gradle**, que vem com o **Android Studio**, gerencia **bibliotecas** e **dependências** do seu projeto Cordova. Isso garante que tudo esteja atualizado e funcionando corretamente.  
+
+---  
+> 💡 **Dica:** Sempre verifique se o Android SDK e as ferramentas necessárias estão corretamente configuradas para evitar erros ao compilar seu aplicativo. 🚀  
+ 
 
 ## 📲 Testando no Celular
 
-
-
-
-
-
-
-
-Conectar o celular via USB e ativar Depuração USB.
-
-Rodar o comando:
+Após a finalização do código, execute o comando:
 ```sh
-cordova run android --device
+cordova build android
 ```
 
-Caso necessário, instalar manualmente o APK gerado em **platforms/android/app/build/outputs/apk/debug/**.
+Após isso, dentro do seu diretorio hello, vá a esse caminho:
+```sh 
+cd platforms/android/app/build/outputs/apk/debug
+```
 
+Agora, abra seu explorer e vá em "Este Computador". Conecte um cabo USB no computador e conecte no Celular.  
+
+O que você verá sera algo como:
+
+![alt text](Fotos/imagem.png)
+
+
+Clique em Armazenamento inteirno:
+
+![alt text](<Fotos/imagem (1).png>)
+
+E, adicione o arquivo APK dentro de armazenamento interno:
+
+![alt text](<Fotos/imagem (2).png>)
 
 ## 🚧 Possíveis Problemas e Soluções
 
