@@ -138,11 +138,16 @@ E, adicione o arquivo APK dentro de armazenamento interno:
 
 ---
 
-## 🚧 Possíveis Problemas e Soluções
+## 🚧Problemas 
 
-- **Erro de SDK não encontrado:** Verifique se o Android SDK está instalado e o caminho configurado.
+- **Erro de SDK não encontrado:** Problema no Android Studio, teve problema na instalação do mesmo.
 
-- **Erro ao rodar no dispositivo:** Certifique-se de que o modo de desenvolvedor está ativado e a depuração USB está permitida.
+- **Erro ao rodar no dispositivo:** Ao dar cordova build android/browser, não aparecia o APK dentro de "Plataforms" e não rodava o programa no emulador e no Browser. Gradle é uma ferramenta de automação de build, não está instalado e configurado corretamente no ambiente. O que impediu a construção do projeto android usando o Apache Cordova. 
+
+- **Erro na versão do SDK:** 
+Estavamos usando a versão 35, e compativél foi a 34. Então, foi preciso instalar a versão antiga do SDK pelo proprio Android Studio.
+
+> Resolução do Problema ao rodar no dispositivo: https://gradle.org/install/
 
 
 ## 📖 Referências
