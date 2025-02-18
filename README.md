@@ -10,6 +10,7 @@ Apache Cordova é um framework de desenvolvimento mobile que permite criar aplic
 
 3. Plugins do Cordova são usados para fazer o "link" entre o código web e as APIs nativas do dispositivo. Por exemplo, se você quer acessar a câmera do celular, o Cordova vai usar um plugin para que seu código web possa acessar a câmera nativa do dispositivo.
 
+---
 ## 📌 Pré-requisitos
 
 Antes de começar, instale os seguintes softwares:
@@ -21,6 +22,7 @@ Antes de começar, instale os seguintes softwares:
   ```
 - [Android SDK](https://developer.android.com/studio) (para rodar em dispositivos Android)
 
+---
 ## 🚀 Criando o Projeto
 1. Criar um novo aplicativo:
    ```sh
@@ -35,6 +37,7 @@ Antes de começar, instale os seguintes softwares:
    cordova platform add android
    ```
 
+---
 ## ⚡ Principais Comandos
 
 - Listar plataformas suportadas:
@@ -50,6 +53,7 @@ Antes de começar, instale os seguintes softwares:
   cordova build android
   ```
 
+---
 ## 🛠️ Desenvolvimento do Aplicativo
 
 Desenvolvemos uma calculadora que apenas soma, como forma de teste. Nosso objetivo era ver se a instalação ocorreria com exíto e, com um código básico, ser possivel a instalação do aplicativo no celular android por APK.
@@ -80,6 +84,8 @@ function somar() {
     document.getElementById('resultado').innerText = 'Resultado: ' + resultado;
 }
 ```
+
+---
 ## 📱 Ambiente de Compilação  
 
 O **Apache Cordova** permite que você desenvolva aplicativos móveis usando **HTML, CSS e JavaScript**, mas para transformar esse código em um **APK (aplicativo Android instalável)**, é necessário um ambiente de compilação adequado.  
@@ -102,6 +108,7 @@ O **Gradle**, que vem com o **Android Studio**, gerencia **bibliotecas** e **dep
 > 💡 **Dica:** Sempre verifique se o Android SDK e as ferramentas necessárias estão corretamente configuradas para evitar erros ao compilar seu aplicativo. 🚀  
  
 
+---
 ## 📲 Testando no Celular
 
 Após a finalização do código, execute o comando:
@@ -128,6 +135,8 @@ Clique em Armazenamento inteirno:
 E, adicione o arquivo APK dentro de armazenamento interno:
 
 ![alt text](<Fotos/imagem (2).png>)
+
+---
 
 ## 🚧 Possíveis Problemas e Soluções
 
