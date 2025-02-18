@@ -138,7 +138,7 @@ E, adicione o arquivo APK dentro de armazenamento interno:
 
 ---
 
-## 🚧Problemas 
+## 🚧 Problemas e Soluções
 
 - **Erro de SDK não encontrado:** Problema no Android Studio, teve problema na instalação do mesmo.
 
